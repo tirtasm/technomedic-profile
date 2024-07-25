@@ -1,0 +1,264 @@
+.navbar {
+	background: #f9fbff;
+}
+.top {
+	margin-top: 8rem;
+}
+html{
+	scroll-behavior:smooth;
+}
+#profil{
+	scroll-margin-top: 20rem;
+}
+#produk{
+	scroll-margin-top: 8rem;
+}
+#implementasi{
+	scroll-margin-top: 4rem;
+}
+#klien{
+	scroll-margin-top: 15rem;
+}
+#kontak{
+	scroll-margin-top: 5rem;
+}
+.mx-header {
+	margin-top: 4rem;
+	margin-bottom: 4rem;
+}
+.my-custom {
+	margin-top: 7rem;
+	margin-bottom: 10rem;
+}
+.mx-custom {
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+}
+.rmv-col > [class*="col-"] {
+	padding-right: 0;
+	padding-left: 0;
+}
+
+.blue {
+	color: #123475;
+	/* margin9top: -.5rem; */
+}
+.green {
+	color: #16b3ac;
+}
+
+.text-product {
+	color: #2c5095;
+}
+
+.poppins-light-btn {
+	font-family: "Poppins", sans-serif;
+	font-weight: 400;
+	font-size: 0.9rem;
+	border-radius: 8px;
+	background-color: #16b3ac;
+	color: #ffffff;
+}
+
+.poppins-light-btn:hover {
+	background-color: #34beb8;
+	color: #fff;
+}
+
+.poppins-regular {
+	font-family: "Poppins", sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	font-style: normal;
+	color: #16b3ac;
+}
+
+
+.poppins-regular-nav {
+	font-family: "Poppins", sans-serif;
+	margin: 0 8px;
+	font-size: 14px;
+	font-weight: 500;
+	font-style: normal;
+	color: #929396;
+}
+
+
+.nav li.active a {
+	color: #000;
+	/* Atur warna teks untuk tab yang aktif */
+}
+
+.poppins-medium {
+	font-family: "Poppins", sans-serif;
+	font-weight: 500;
+	font-style: normal;
+}
+
+.poppins-semibold {
+	font-family: "Poppins", sans-serif;
+	font-weight: 600;
+	font-style: normal;
+}
+
+.poppins-bold {
+	font-family: "Poppins", sans-serif;
+	font-weight: 600;
+	font-style: normal;
+}
+
+.poppins-extrabold {
+	font-family: "Poppins", sans-serif;
+	font-weight: 800;
+	font-style: normal;
+}
+.product {
+	padding: 3rem 0 3rem 0;
+	margin-bottom: 2rem;
+	background-color: #99f1e8;
+}
+.kotak-product {
+	padding: 3rem 4rem 3rem 4rem;
+	margin-top: 2rem;
+	background-color: #e8f9fa;
+	border-radius: 20px;
+}
+.strategi {
+	padding: 1rem 0 1rem 0;
+	margin-bottom: 2rem;
+	background-color: #f9fbff;
+}
+.kotak-strategi {
+	padding: 3rem 4rem 3rem 4rem;
+	margin-top: 2rem;
+	background-color: #ffffff;
+	border-radius: 20px;
+}
+.contact {
+	padding: 3.5rem 0 4rem 0;
+	background-color: #f1f5fd;
+}
+
+.clients {
+	padding: 3rem 0 1rem 0;
+	margin-top: 2rem;
+	margin-bottom: 7rem;
+	background-color: #ffffff;
+}
+
+.contact-wrap {
+	background: #fff;
+	padding: 3rem 3.5rem 2rem 3rem;
+}
+.info-wrap {
+	color: #f1f5fd;
+	background: #16b3ac;
+	line-height: 18px;
+	font-size: 14px;
+}
+
+.form-control-underline {
+	border: none;
+	border-bottom: 1.4px solid black;
+	border-radius: 0;
+	box-shadow: none;
+}
+
+.form-control-underline:focus {
+	border-bottom: 1.4px solid #16b3ac;
+	box-shadow: none;
+	outline: 0;
+}
+
+@media (min-width: 774px) {
+	.stetoskop {
+		width: 800px;
+		height: 800px;
+	}
+}
+@media (min-width: 766px) {
+	.info-wrap,
+	.contact-wrap {
+		border-radius: 10px;
+	}
+	.form-group {
+		margin-left: 16px;
+	}
+}
+
+@media (max-width: 767px) {
+	.info-wrap {
+		border-radius: 0 0 10px 10px;
+		margin: 0 1rem 0 1rem;
+	}
+	.contact-wrap {
+		text-align: center;
+		border-radius: 10px 10px 0 0;
+		margin: 0 1rem 0 1rem;
+	}
+	.footer {
+		flex-direction: column;
+	}
+	p {
+		margin-top: 8px;
+	}
+	textarea::placeholder,
+	input::placeholder {
+		text-align: center;
+	}
+}
+
+::-webkit-scrollbar-track {
+	border-radius: 10px;
+	background-color: #f5f5f9;
+}
+::-webkit-scrollbar {
+	width: 12px;
+}
+::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+
+	background-color: #e8f9fa;
+}
+
+input::placeholder {
+	font-family: "Poppins", sans-serif;
+	font-weight: 400;
+	font-size: 0.75rem;
+}
+textarea::placeholder {
+	font-family: "Poppins", sans-serif;
+	font-weight: 400;
+	font-size: 0.75rem;
+	transform: translateY(25px);
+}
+
+.slider-track {
+	display: flex;
+	animation: scroll 14s linear infinite; /* Increase the animation duration for a slower movement */
+}
+
+.slider-track .slider-item {
+	flex: 0 0 8.33%; /* Each item takes 8.33% of the container width (100% / 12) */
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+}
+
+.slider-track .slider-item img {
+	max-width: 100%;
+	height: auto;
+}
+
+@keyframes scroll {
+	0% {
+		transform: translateX(0%);
+	}
+	100% {
+		transform: translateX(
+			-100%
+		); /* Change the translateX value to -100% to move the slider completely */
+	}
+}
