@@ -14,8 +14,9 @@
                             Rumah Sakit.
                         </p>
                         <p data-aos="fade-right" data-aos-delay="200" data-aos-offset="-500">
-                            <a href="#" class="btn poppins-light-btn">Kenalan Yuk</a>
+                            <a href="#profil" class="btn poppins-light-btn">Kenalan Yuk</a>
                         </p>
+                        
                     </div>
                 </div>
 
@@ -324,10 +325,9 @@
                                         </div>
                                         <div class="col-md-6">
                                             <div class="form-group">
-                                                <label for="email" class="form-label mt-3 green poppins-medium">Alamat
-                                                    Email</label>
+                                                <label for="email" class="form-label mt-3 green poppins-medium">Email</label>
                                                 <input type="text" class="form-control-underline form-control" id="email"
-                                                    placeholder="Masukkan alamat email Anda..">
+                                                    placeholder="Masukkan email Anda..">
                                             </div>
                                         </div>
                                         <div class="col-12">

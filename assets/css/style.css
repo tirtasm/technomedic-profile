@@ -84,7 +84,7 @@ html{
 }
 
 
-.nav li.active a {
+.navbar li.active a {
 	color: #000;
 	/* Atur warna teks untuk tab yang aktif */
 }
@@ -220,7 +220,10 @@ html{
 
 	background-color: #e8f9fa;
 }
-
+textarea, input{
+	font-family: "Poppins", sans-serif;
+	
+}
 input::placeholder {
 	font-family: "Poppins", sans-serif;
 	font-weight: 400;
@@ -230,7 +233,7 @@ textarea::placeholder {
 	font-family: "Poppins", sans-serif;
 	font-weight: 400;
 	font-size: 0.75rem;
-	transform: translateY(25px);
+	/* transform: translateY(25px); */
 }
 
 .slider-track {

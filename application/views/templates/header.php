@@ -31,19 +31,20 @@
             /* Atur warna teks untuk tab yang aktif */
         }
     </style>
+    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
     <nav class="navbar navbar-default navbar-expand-lg py-3 border-up-0 border-bottom border-gray fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="">
                 <img src="assets/img/logo.svg" alt="logo" height="36">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent">
                 <img draggable="false" src="assets/img/menu.svg">
             </button>
-            <div class="collapse navbar-collapse nav navbar-nav text-center navbar-scrollable"
+            <div class="collapse navbar-collapse text-center navbar-scrollable"
                 id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto">
                     <li class="">
@@ -67,8 +68,8 @@
     </nav>
     <script>
         $(document).ready(function () {
-            $('.nav li').click(function () {
-                $('.nav li').removeClass('active');
+            $('.navbar li').click(function () {
+                $('.navbar li').removeClass('active');
                 $(this).addClass('active');
             });
         });
